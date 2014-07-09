@@ -1,0 +1,9 @@
+.DS_Store
+*~
+*.diff
+*.patch
+*.bck
+.sublime-project.sublime-workspace
+node_modules
+.grunt
+_SpecRunner.html
