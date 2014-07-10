@@ -1,0 +1,39 @@
+{
+  "name": "<%= name %>",
+  "version": "0.0.0",
+  "title": "<%= title %>",
+  "description": "<%= description %>",
+  "homepage": "<%= homepage %>",
+  "author": {
+    "name": "<%= authorName %>",
+    "email": "<%= authorEmail %>"
+  },
+  "repository": {
+    "type": "git",
+    "url": "<%= repository %>"
+  },
+  "bugs": {
+    "url": "<%= bugs %>"
+  },
+  "license": {
+    "type": "<%= licenseType %>",
+    "url": "<%= licenseUrl %>"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-jshint": "~0.7.2",
+    "grunt-contrib-jasmine": "~0.5.2",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-uglify": "~0.3.2",
+    "grunt-contrib-cssmin": "~0.8.0",
+    "grunt-contrib-copy": "~0.5.0",
+    "grunt-banner": "~0.2.1",
+    "grunt-bump": "0.0.13",
+    "grunt-conventional-changelog": "^1.1.0"
+  },
+  "dependencies": {},
+  "private": <%= private %>
+}
