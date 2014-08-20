@@ -38,5 +38,5 @@
     "yeoman-generator": "^0.17.1"
   },
   "license": "MIT",
-  "private": true
+  "private": false
 }
