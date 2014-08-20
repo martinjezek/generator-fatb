@@ -106,6 +106,15 @@ module.exports = function(grunt) {
             options: {
                 editor: 'subl -w -n'
             }
+        },
+        connect: {
+            server: {
+                options: {
+                    hostname: 'localhost',
+                    port: 9001,
+                    keepalive: true
+                }
+            }
         }
     });
 
@@ -118,6 +127,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-banner');
     grunt.loadNpmTasks('grunt-bump');
     grunt.loadNpmTasks('grunt-conventional-changelog');
+    grunt.loadNpmTasks('grunt-contrib-connect');
 
     grunt.registerTask('default', ['test']);
     grunt.registerTask('test', ['jshint', 'jasmine']);
