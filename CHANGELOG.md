@@ -1,3 +1,12 @@
+<a name="0.0.3"></a>
+### 0.0.3 (2014-08-20)
+
+
+#### Bug Fixes
+
+* replacing .gitignore with .npmignore on publishing the package to npm ([3c135678](git@github.com:martinjezek/generator-fatb/commit/3c13567888ce67aa317f23bc081070cda959fd81))
+
+
 <a name="0.0.2"></a>
 ### 0.0.2 (2014-08-20)
 
