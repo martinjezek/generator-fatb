@@ -32,7 +32,8 @@
     "grunt-contrib-copy": "~0.5.0",
     "grunt-banner": "~0.2.1",
     "grunt-bump": "0.0.13",
-    "grunt-conventional-changelog": "^1.1.0"
+    "grunt-conventional-changelog": "^1.1.0",
+    "grunt-contrib-connect": "^0.8.0"
   },
   "dependencies": {},
   "private": <%= private %>
