@@ -1,6 +1,6 @@
 {
   "name": "generator-fatb",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Yeoman generator for jQuery plugins - it makes it easy to create a new plugin with Grunt tasks for testing and releasing new versions.",
   "homepage": "https://github.com/martinjezek/generator-fatb",
   "keywords": [
