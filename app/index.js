@@ -46,10 +46,10 @@ module.exports = yeoman.generators.Base.extend({
             message   : 'Private',
             default   : 0,
             choices   : [{
-                name  : "true",
+                name  : 'true',
                 value : true
             },{
-                name  : "false",
+                name  : 'false',
                 value : false
             }]
         },{
@@ -73,14 +73,14 @@ module.exports = yeoman.generators.Base.extend({
             message   : 'License Type',
             default   : 0,
             choices   : [{
-                name  : "MIT",
-                value : "MIT"
+                name  : 'MIT',
+                value : 'MIT'
             },{
-                name  : "GPL",
-                value : "GPL"
+                name  : 'GPL',
+                value : 'GPL'
             },{
-                name  : "Apache",
-                value : "Apache"
+                name  : 'Apache',
+                value : 'Apache'
             }]
         },{
             type      : 'input',
@@ -131,7 +131,7 @@ module.exports = yeoman.generators.Base.extend({
         this.copy('CHANGELOG.md', 'CHANGELOG.md');
         this.copy('.sublime-project', '.sublime-project');
         this.copy('.jshintrc', '.jshintrc');
-        this.copy('.gitignore', '.gitignore');
+        this.copy('.npmignore', '.gitignore'); // fix issue with auto-renaming on publish
         this.copy('.gitattributes', '.gitattributes');
         this.copy('.editorconfig', '.editorconfig');
         this.copy('.bowerrc', '.bowerrc');
