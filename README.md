@@ -1,4 +1,4 @@
-# FatB generator [![Build Status](https://travis-ci.org/martinjezek/generator-fatb.svg?branch=master)](https://travis-ci.org/martinjezek/generator-fatb)     
+# FatB generator [![Build Status](https://travis-ci.org/martinjezek/generator-fatb.svg?branch=master)](https://travis-ci.org/martinjezek/generator-fatb) [![Dependencies Status](https://david-dm.org/martinjezek/generator-fatb.svg)](https://david-dm.org/martinjezek/generator-fatb#info=dependencies&view=table) [![devDependencies Status](https://david-dm.org/martinjezek/generator-fatb/dev-status.svg)](https://david-dm.org/martinjezek/generator-fatb#info=devDependencies&view=table) 
 
 > Yeoman generator for jQuery plugins - it makes it easy to create a new plugin with Grunt tasks for testing and releasing new versions.
 
