@@ -1,3 +1,12 @@
+<a name="0.0.4"></a>
+### 0.0.4 (2014-09-03)
+
+
+#### Features
+
+* update project dependencies to the latest versions ([76f1fdf1](git@github.com:martinjezek/generator-fatb/commit/76f1fdf10e51068e3ecd402af7f9806e47aa64cd))
+
+
 <a name="0.0.3"></a>
 ### 0.0.3 (2014-08-20)
 
