@@ -1,3 +1,11 @@
+### 1.0.1 (2014-11-22)
+
+
+#### Features
+
+* update dependancies and add gulp dist to the release #13 ([d58d1136]([object Object]/commit/d58d1136bb969c8e254e84a439ae0496ff052fd6))
+
+
 ## 1.0.0 (2014-11-22)
 
 
