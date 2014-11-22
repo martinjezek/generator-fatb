@@ -1,4 +1,8 @@
-# FatB generator [![Build Status](https://travis-ci.org/martinjezek/generator-fatb.svg?branch=master)](https://travis-ci.org/martinjezek/generator-fatb) [![Dependencies Status](https://david-dm.org/martinjezek/generator-fatb.svg)](https://david-dm.org/martinjezek/generator-fatb#info=dependencies&view=table) [![devDependencies Status](https://david-dm.org/martinjezek/generator-fatb/dev-status.svg)](https://david-dm.org/martinjezek/generator-fatb#info=devDependencies&view=table) 
+# FatB generator
+[![GitHub Tag][github-tag-image]][github-tag-url]
+[![Build Status][travis-image]][travis-url]
+[![Dependencies Status][david-image]][david-url]
+[![devDependencies Status][david-dev-image]][david-dev-url]
 
 > Yeoman generator for jQuery plugins - it makes it easy to create a new plugin with Grunt tasks for testing and releasing new versions.
 
@@ -29,3 +33,12 @@ See the [CHANGELOG.md](https://github.com/martinjezek/generator-fatb/blob/master
 ## License
 
 [MIT license](https://raw.githubusercontent.com/martinjezek/generator-fatb/master/LICENSE)
+
+[github-tag-image]: http://img.shields.io/github/tag/martinjezek/generator-fatb.svg?style=flat
+[github-tag-url]: https://github.com/martinjezek/generator-fatb/tags
+[travis-image]: http://img.shields.io/travis/martinjezek/generator-fatb.svg?style=flat
+[travis-url]: https://travis-ci.org/martinjezek/generator-fatb
+[david-image]: http://img.shields.io/david/martinjezek/generator-fatb.svg?style=flat
+[david-url]: https://david-dm.org/martinjezek/generator-fatb#info=dependencies
+[david-dev-image]: http://img.shields.io/david/dev/martinjezek/generator-fatb.svg?style=flat
+[david-dev-url]: https://david-dm.org/martinjezek/generator-fatb#info=devDependencies

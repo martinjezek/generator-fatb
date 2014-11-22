@@ -1,0 +1,17 @@
+doctype html
+html(lang="en")
+    include ./head.jade
+    body
+        div.container
+            block header
+                div.page-header
+                    h1 <%= title %>
+                        = ' '
+                        small jQuery plugin
+
+                div.well
+                    p <%= description %>
+
+            div.jumbotron
+                block content
+

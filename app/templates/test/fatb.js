@@ -14,7 +14,7 @@ describe('<%= name %>', function() {
     });
 
     it('should be chainable', function() {
-        $element.<%= name %>().addClass('chainable');
-        expect($element.hasClass('chainable')).toBeTruthy();
+        $element.<%= nameCamelCased %>().addClass('chainable');
+        expect($element.hasClass('chainable')).toBe(true);
     });
 });
