@@ -1,3 +1,11 @@
+## 1.0.0 (2014-11-22)
+
+
+#### Features
+
+* refactoring whole plugin to use Gulp instead of Grunt #11 ([98a7cc82]([object Object]/commit/98a7cc82b06b48d06981a0cdd9dace3cdb4a7eaf))
+
+
 ### 0.0.4 (2014-09-03)
 
 
