@@ -1,9 +1,10 @@
 {
+    "quotmark"      : true,
     "browser"       : true,
     "devel"         : true,
     "node"          : true,
     "jquery"        : true,
-    "curly"         : true,
+    "curly"         : false,
     "expr"          : true,
     "globalstrict"  : true,
     "trailing"      : true,
@@ -15,7 +16,9 @@
         "xit"           : true,
         "describe"      : true,
         "xdescribe"     : true,
+        "before"        : true,
         "beforeEach"    : true,
+        "after"         : true,
         "afterEach"     : true,
         "expect"        : true,
         "spyOn"         : true

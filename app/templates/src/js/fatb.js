@@ -14,10 +14,10 @@
         var self = this;
 
         self.options = options;
-        self.$<%= name %> = $(element);
+        self.$<%= nameCamelCased %> = $(element);
 
-        self.myMethod(self, self.$<%= name %>.html(), function(param) {
-            self.$<%= name %>.html(param);
+        self.myMethod(self, self.$<%= nameCamelCased %>.html(), function(param) {
+            self.$<%= nameCamelCased %>.html(param);
         });
     };
 
@@ -60,17 +60,17 @@
         }%>
      */
 
-    var old = $.fn.<%= name %>;
+    var old = $.fn.<%= nameCamelCased %>;
 
-    $.fn.<%= name %> = function (option, optionExt, optionExt2) {
+    $.fn.<%= nameCamelCased %> = function (option, optionExt, optionExt2) {
         return this.each(function () {
             var $this = $(this);
-            var data  = $this.data('<%= name %>');
+            var data  = $this.data('<%= nameCamelCased %>');
 
             if (!data) {
                 // extend default options
                 var options = $.extend(true, {}, <%= nameUcFirst %>.DEFAULTS, option);
-                $this.data('<%= name %>', (data = new <%= nameUcFirst %>(this, options)));
+                $this.data('<%= nameCamelCased %>', (data = new <%= nameUcFirst %>(this, options)));
             }
             if (typeof option == 'string') {
                 if (optionExt2 !== undefined) {
@@ -84,7 +84,7 @@
         });
     };
 
-    $.fn.<%= name %>.Constructor = <%= nameUcFirst %>;
+    $.fn.<%= nameCamelCased %>.Constructor = <%= nameUcFirst %>;
 
     /*!
      * <%= nameUpperCase %> PLUGIN SELF GETTER
@@ -118,8 +118,8 @@
         }%>
      */
 
-    $.fn.<%= name %>.noConflict = function () {
-        $.fn.<%= name %> = old;
+    $.fn.<%= nameCamelCased %>.noConflict = function () {
+        $.fn.<%= nameCamelCased %> = old;
         return this;
     };
 
