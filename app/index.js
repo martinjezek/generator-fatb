@@ -111,6 +111,8 @@ module.exports = yeoman.generators.Base.extend({
         this.template('demo/src/js/main.js', 'demo/src/js/main.js', this.answers);
         this.dest.mkdir('demo/src/sass');
         this.template('demo/src/sass/style.scss', 'demo/src/sass/style.scss', this.answers);
+        this.dest.mkdir('demo/src/data');
+        this.src.copy('demo/src/data/test.json'  , 'demo/src/data/test.json');
 
         // dist
         this.dest.mkdir('dist');
@@ -127,6 +129,7 @@ module.exports = yeoman.generators.Base.extend({
         this.dest.mkdir('task');
         this.src.copy('task/banner.js'  , 'task/banner.js');
         this.src.copy('task/connect.js' , 'task/connect.js');
+        this.src.copy('task/copy.js'    , 'task/copy.js');
         this.src.copy('task/default.js' , 'task/default.js');
         this.src.copy('task/demo.js'    , 'task/demo.js');
         this.src.copy('task/dist.js'    , 'task/dist.js');
