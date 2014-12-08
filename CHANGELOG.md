@@ -1,3 +1,11 @@
+### 1.0.3 (2014-12-08)
+
+
+#### Bug Fixes
+
+* fix copy task implementation ([92bdc8a3]([object Object]/commit/92bdc8a3c67a287aadee5c3db41ff9a4a00d507a))
+
+
 ### 1.0.2 (2014-12-08)
 
 
