@@ -1,3 +1,12 @@
+### 1.0.2 (2014-12-08)
+
+
+#### Features
+
+* add a copy task for demo data folder #15 ([d5358d3a]([object Object]/commit/d5358d3aca6264c6ab2e12141bd6c92b81dab477))
+* update project dependencies and a few other tweaks #15 ([2ac92930]([object Object]/commit/2ac9293083692a480ec1bc9724852d2ce53a0906))
+
+
 ### 1.0.1 (2014-11-22)
 
 
