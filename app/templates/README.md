@@ -6,6 +6,26 @@
 
 > <%= description %>
 
+## Usage
+
+Run the demo
+
+```shell
+npm start
+```
+
+Test the plugin
+
+```shell
+npm test
+```
+
+Release a new version
+
+```shell
+gulp release --version [major|minor|patch|prerelease]
+```
+
 ## Release History
 
 See the [CHANGELOG.md](https://github.com/<%= repository %>/blob/master/CHANGELOG.md)

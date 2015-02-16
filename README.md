@@ -4,7 +4,7 @@
 [![Dependencies Status][david-image]][david-url]
 [![devDependencies Status][david-dev-image]][david-dev-url]
 
-> Yeoman generator for jQuery plugins - it makes it easy to create a new plugin with Grunt tasks for testing and releasing new versions.
+> Yeoman generator for jQuery plugins - it makes it easy to create a new plugin with Gulp tasks for testing and releasing new versions.
 
 ## Getting Started
 
@@ -16,7 +16,7 @@ If you haven't used [Yeoman](http://yeoman.io/) before, be sure to check out the
 npm install generator-fatb -g
 ```
 
-## Usage
+## Generator Usage
 
 At the command-line, cd into an empty directory, run this command and follow the prompts.
 
@@ -25,6 +25,26 @@ yo fatb
 ```
 
 Note that this template will generate files in the current directory, so be sure to change to a new directory first if you don't want to overwrite existing files.
+
+## Plugin Usage
+
+Run the demo
+
+```shell
+npm start
+```
+
+Test the plugin
+
+```shell
+npm test
+```
+
+Release a new version
+
+```shell
+gulp release --version [major|minor|patch|prerelease]
+```
 
 ## Release History
 
