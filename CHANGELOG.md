@@ -1,3 +1,12 @@
+## 1.1.0 (2015-02-16)
+
+
+#### Features
+
+* **documentation:** tweak the documentation #18 ([d1868146]([object Object]/commit/d18681468bcb65f087932be6f9d8f8b379ea120e))
+* **tests:** add a unit tests to plugin generator #18 ([d4b2094f]([object Object]/commit/d4b2094f0d6d80a1ee59d2c3b208ba0e26a53db3))
+
+
 ### 1.0.3 (2014-12-08)
 
 
